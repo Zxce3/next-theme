@@ -1,3 +1,4 @@
+[![preview image](https://github.com/Zxce3/next-theme/blob/main/preview.png)](https://www.deviantart.com/sdbinwiiexe/art/rEFInd-Next-Theme-407754566)
 ## rEFInd Next theme
 
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
@@ -25,7 +26,7 @@ would like to use for that entry.
 
 Here's an example configuration:
 
-````
+```shell
 menuentry "Arch Linux" {
 	icon /EFI/refind/next-theme/icons/os_arch.png
 	loader vmlinuz-linux
@@ -42,7 +43,7 @@ menuentry "OSX" {
 	icon /EFI/refind/next-theme/icons/os_mac.png
 	loader /EFI/Apple/Boot/bootmgfw.efi
 }
-````
+```
 
 Entries that are autodetected should also show the proper icons.
 
@@ -99,44 +100,50 @@ The theme contains icons for the following operating systems:
 
 # Change Log
 
-February 10, 2018
-    - Added Netboot (both tool and os icons)
+## February 10, 2018
+ - Added Netboot (both tool and os icons)
 
-August 7, 2017
-    - Added Ubuntu Flavours
-        - Xubuntu
-        - Lubuntu
-        - Kubuntu
-        - Edubuntu
-        - Ubuntu Studio
-        - Ubuntu Mate
-        - Ubuntu Budgie
-    - Added Antergos
-    - Added CentOS
-    - Added Deepin
-    - Added Zorin
-    - Added Solus
+## August 7, 2017
+ - Added Ubuntu Flavours
+	- Xubuntu
+	- Lubuntu
+	- Kubuntu
+	- Edubuntu
+	- Ubuntu Studio
+	- Ubuntu Mate
+	- Ubuntu Budgie
+- Added Antergos
+- Added CentOS
+- Added Deepin
+- Added Zorin
+- Added Solus
 
-June 23, 2017
-    - Added new Elementary os and boot icons
-    - Renamed previous thin elementary icons to elementary_alt
+## June 23, 2017
 
-April 4, 2015
-    - Added Android icon (os_android.png) for Android_x86 users
+- Added new Elementary os and boot icons
+- Renamed previous thin elementary icons to elementary_alt
 
-February 10, 2015
-    - Copied os_win.png to os_win8.png for compatibility with rEFInd 0.8.6
+## April 4, 2015
 
-October 22, 2014:
-    - Changed Kali icon to a thicker, more basic variation of the logo
-    - Added alternate (traditional) Linux Mint logo
+- Added Android icon (os_android.png) for Android_x86 users
 
-May 26, 2014:
-    - Linux OS/boot icons changed to a tux variation
-    - Shell tool icon added
-    - Renamed backtrack icons to kali
+## February 10, 2015
 
-December 25, 2013:
-    - Windows and Linux Mint icons have been downscaled slightly to be more visually appealing.
-    - Several boot icons have been included for graphical boot (notes have been added to the readme file for how to create additional boot icons).
-    - Added resolution-scaled backgrounds.  Simply designate the background corresponding to your mac's native resolution (as discussed in the readme file).
+- Copied os_win.png to os_win8.png for compatibility with rEFInd 0.8.6
+
+## October 22, 2014:
+
+- Changed Kali icon to a thicker, more basic variation of the logo
+- Added alternate (traditional) Linux Mint logo
+
+## May 26, 2014:
+
+- Linux OS/boot icons changed to a tux variation
+- Shell tool icon added
+- Renamed backtrack icons to kali
+
+## December 25, 2013:
+
+- Windows and Linux Mint icons have been downscaled slightly to be more visually appealing.
+- Several boot icons have been included for graphical boot (notes have been added to the readme file for how to create additional boot icons).
+- Added resolution-scaled backgrounds.  Simply designate the background corresponding to your mac's native resolution (as discussed in the readme file).
